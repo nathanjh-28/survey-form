@@ -17,25 +17,51 @@
     <form id="survey-form" action="">
         <!-- Name -->
         <fieldset>
+            <legend>About You</legend>
             <label for="name" id="name-label">
                 Name:<input required type="text" name="name" id="name" placeholder="enter your name">
 
             </label>
-        </fieldset>
 
-        <!-- Email -->
-        <fieldset>
+
+            <!-- Email -->
+
             <label for="email">
                 Email: <input type="email" name="email" id="email" placeholder="enter your email">
             </label>
-        </fieldset>
 
-        <!-- Age -->
-        <fieldset>
+
+            <!-- Age -->
+
             <label for="age">
                 Age: <input type="number" name="age" id="age" placeholder="age" min="13" max="120">
             </label>
+
+            <!-- Current Role -->
+
+
+            <select name="current-role" id="dropdown">
+                <option>Which option best describes your current role?
+                </option>
+                <option value="">Student</option>
+                <option value="">Full Time Job</option>
+                <option value="">Full Time Leaner</option>
+                <option value="">Prefer not to say</option>
+            </select>
         </fieldset>
+
+        <fieldset>
+            <legend>Survey Questions</legend>
+            <p>Would you recomend Freecodecamp to a friend?</p>
+
+            <label for=""><input type="radio">Definitely</label>
+            <label for=""><input type="radio">Maybe</label>
+            <label for=""><input type="radio">Not Sure</label>
+
+        </fieldset>
+
+        <!-- Submit -->
+        <button type="submit" id="submit">Submit</button>
 
 
 
