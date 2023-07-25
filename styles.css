@@ -1,3 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
+.checkbox-label {
+    display: block;
+}
