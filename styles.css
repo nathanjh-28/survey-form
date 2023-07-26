@@ -2,6 +2,21 @@
     box-sizing: border-box;
 }
 
-.checkbox-label {
+body {
+    background-color: black;
+    color: white;
+}
+
+.checkbox-label,
+label,
+textarea {
     display: block;
+    width: 100%;
+}
+
+.container {
+    background-color: antiquewhite;
+    color: black;
+    margin: 0 2em;
+    padding: 2em;
 }
