@@ -43,6 +43,11 @@ select {
     font: inherit;
 }
 
+/* Fieldset reset */
+fieldset {
+    border: none;
+}
+
 /* remove animations for people who've turned them off */
 @media (prefers-reduced-motion: reduce) {
 
@@ -64,6 +69,10 @@ select {
 .flex {
     display: flex;
     gap: var(--gap, 1rem);
+}
+
+.text-center {
+    text-align: center;
 }
 
 .grid {
@@ -95,13 +104,37 @@ select {
 /* ---------------------------------------- */
 
 body {
-    background-color: black;
+    background-color: rgb(45, 34, 116);
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
-h1,
+p {
+    font-size: 1.125rem;
+}
+
+.container {
+    width: 100%;
+    margin: 3.125rem auto 0 auto;
+    ;
+}
+
+/* Header */
+
+header {
+    padding: 0 0.625rem;
+    margin-bottom: 1.875rem;
+}
+
+#title {
+    font-weight: 400;
+    line-height: 1.2;
+}
+
 #description {
-    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
 }
 
 .checkbox-label,
@@ -112,12 +145,7 @@ textarea {
 }
 
 .form-container {
-    background-color: antiquewhite;
-    color: black;
+    background-color: rgba(0, 0, 0, .5);
     max-width: 700px;
     margin: 0 auto;
-}
-
-fieldset {
-    border: none;
 }
