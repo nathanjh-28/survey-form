@@ -24,7 +24,6 @@
         <form id="survey-form" action="">
             <!-- Name -->
             <fieldset>
-                <legend>About You</legend>
                 <div class="form-group">
 
                     <label for="name" id="name-label">
@@ -35,33 +34,39 @@
                 </div>
 
                 <!-- Email -->
+                <div class="form-group">
 
-                <label for="email">
-                    Email: <input type="email" name="email" id="email" placeholder="enter your email">
-                </label>
-
+                    <label for="email">
+                        Email:
+                    </label>
+                    <input type="email" name="email" id="email" placeholder="enter your email" class="form-control">
+                </div>
 
                 <!-- Age -->
+                <div class="form-group">
 
-                <label for="age">
-                    Age: <input type="number" name="age" id="age" placeholder="age" min="13" max="120">
-                </label>
+                    <label for="age">
+                        Age:
+                    </label>
+                    <input type="number" name="age" id="age" placeholder="age" min="13" max="120" class="form-control">
+                </div>
 
                 <!-- Current Role -->
 
+                <div class="form-group">
 
-                <p>Which option best describes your current role?</p>
-                <select name="current-role" id="dropdown">
-                    <option>Select an Option</option>
-                    <option value="">Student</option>
-                    <option value="">Full Time Job</option>
-                    <option value="">Full Time Leaner</option>
-                    <option value="">Prefer not to say</option>
-                </select>
+                    <p>Which option best describes your current role?</p>
+                    <select name="current-role" id="dropdown" class="form-control">
+                        <option>Select an Option</option>
+                        <option value="">Student</option>
+                        <option value="">Full Time Job</option>
+                        <option value="">Full Time Leaner</option>
+                        <option value="">Prefer not to say</option>
+                    </select>
+                </div>
             </fieldset>
 
             <fieldset>
-                <legend>Survey Questions</legend>
 
                 <!-- Recommend -->
 
