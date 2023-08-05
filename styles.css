@@ -107,6 +107,7 @@ body {
     background-color: rgb(45, 34, 116);
     color: white;
     font-family: 'Poppins', sans-serif;
+    height: 100vh;
 }
 
 p {
