@@ -152,7 +152,8 @@ header {
 }
 
 label,
-p {
+p,
+select {
     margin-bottom: 1em;
 }
 
@@ -175,4 +176,8 @@ input[type="checkbox"] {
     min-height: 1.25rem;
     min-width: 1.25rem;
     margin-right: .5em;
+}
+
+textarea {
+    margin-top: 1em;
 }
