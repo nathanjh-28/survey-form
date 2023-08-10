@@ -104,7 +104,7 @@ fieldset {
 /* ---------------------------------------- */
 
 body {
-    background-color: rgb(45, 34, 116);
+    background-color: rgb(54, 54, 54);
     color: white;
     font-family: 'Poppins', sans-serif;
     height: 100vh;
@@ -139,6 +139,13 @@ header {
 
 /* Form */
 
+form {
+    background-color: rgb(255, 235, 201);
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2.5% 5%;
+    color: rgb(34, 34, 34);
+}
 
 .form-control {
     width: 100%;
@@ -155,6 +162,7 @@ label,
 p,
 select {
     margin-bottom: 1em;
+    color: inherit;
 }
 
 .checkbox-label,
@@ -162,14 +170,10 @@ label,
 textarea {
     display: block;
     width: 100%;
+    color: inherit;
 }
 
-form {
-    background-color: rgba(0, 0, 0, .5);
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2.5% 5%;
-}
+
 
 input[type="radio"],
 input[type="checkbox"] {
@@ -180,4 +184,5 @@ input[type="checkbox"] {
 
 textarea {
     margin-top: 1em;
+
 }
